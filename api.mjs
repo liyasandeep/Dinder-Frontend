@@ -15,7 +15,7 @@ export const imageData = {
 };
 
 const dinderApi = axios.create({
-  baseURL: "https://dinder.cyclic.app/api",
+  baseURL: "https://dinder-be.cyclic.app/api",
 });
 
 export const getAllRestaurants = () => {
